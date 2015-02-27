@@ -3,7 +3,7 @@ param
 [string] $Environment
 )
 
-[xml] $Settings = Get-Content ".\ServerCredentials.xml"
+[xml] $Settings = Get-Content ".\deployconfig.xml"
 $EnvironmentSettings = $Settings.Settings.Environment | Where-Object { $_.Name -eq $Environment }
 #Get and Set Default Location for Procedures and Function
 $DefaultLocation = $Settings.Settings.Defaults.Location.ToString()
