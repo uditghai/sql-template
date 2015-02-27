@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Settings>
+	<Folder Name = "Functions" Type="F"/>
+	<Folder Name = "Procedures" Type="P"/>
+	<Environment Name="Dev">
+		<Server>127.0.0.1</Server>
+		<Database>databasename</Database>
+		<User>user1</User>
+		<Password>password</Password>
+	</Environment>
+	<Environment Name="Dev2">
+		<Server>127.0.0.1</Server>
+		<Database>databasename</Database>
+		<User>user1</User>
+		<Password>password</Password>
+	</Environment>
+	<Environment Name="QA">
+		<Server>127.0.0.1</Server>
+		<Database>databasename</Database>
+		<User>user1</User>
+		<Password>password</Password>
+	</Environment>
+	<Environment Name="UAT">
+		<Server>127.0.0.1</Server>
+		<Database>databasename</Database>
+		<User>user1</User>
+		<Password>password</Password>
+	</Environment>
+	<Environment Name="UAT2">
+		<Server>127.0.0.1</Server>
+		<Database>databasename</Database>
+		<User>user1</User>
+		<Password>password</Password>
+	</Environment>
+	<Environment Name="PROD">
+		<Server>127.0.0.1</Server>
+		<Database>databasename</Database>
+		<User>user1</User>
+		<Password>password</Password>
+	</Environment>
+	<Defaults>
+		<Location>D:\SourceControl\ProjectPath</Location>
+	</Defaults>
+</Settings>
